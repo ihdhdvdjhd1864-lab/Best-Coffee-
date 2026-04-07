@@ -109,10 +109,10 @@ ul li a:hover {
 }
 @keyframes move {
   0% {
-    transform: translateX(0) translateY(0) scale(1);
+    transform: translateX(0) translateY(0)  scale(1);
   }
   100% {
-    transform: translateX(0) translateY(20px) scale(1.03);
+    transform: translateX(0) translateY(20px)  scale(1.03);
   }
 }
 .text-sacshan1 {
