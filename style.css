@@ -36,9 +36,9 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  box-sizing: border-box;
   width: 100%;
   z-index: 100;
+  box-sizing: border-box;
   animation: navbr ease-out 0.8s 1.8s forwards;
   opacity: 0;
 }
@@ -93,7 +93,9 @@ ul li a:hover {
 
 .sacshan1 img {
   width: 35%;
-  animation: -img linear 1s;
+  animation:
+    -img ease-out 1s,
+    move 3s 2.5s ease-in-out infinite alternate;
 }
 @keyframes -img {
   0% {
@@ -105,7 +107,14 @@ ul li a:hover {
     opacity: 1;
   }
 }
-
+@keyframes move {
+  0% {
+    transform: translateX(0) translateY(0) scale(1);
+  }
+  100% {
+    transform: translateX(0) translateY(20px) scale(1.03);
+  }
+}
 .text-sacshan1 {
   animation: text-K linear 1s 1s forwards;
   opacity: 0;
@@ -156,6 +165,7 @@ ul li a:hover {
   color: white;
   background-color: transparent;
   border: 1px solid white;
+  cursor: pointer;
 }
 .sacshan1 .text-sacshan1 .button2 {
   border: none;
@@ -177,6 +187,7 @@ ul li a:hover {
   color: #3c1e1e;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
 .sacshan2 {
   padding: 50px 120px;
@@ -336,6 +347,13 @@ ul li a:hover {
 }
 .Opinions:hover {
   transform: scale(1.05);
+  filter: brightness(1.15);
+}
+.Opinions h3:hover {
+  color: #000;
+}
+.Opinions p:hover {
+  color: #000;
 }
 
 .Opinions i {
@@ -362,11 +380,12 @@ ul li a:hover {
   height: 300px;
   border-radius: 10px;
   object-fit: cover;
-  transition: transform 0.5s ease;
+  transition: all transform 0.5s ease;
 }
 
 .sacshan5 .img-box img:hover {
   transform: scale(1.03);
+  filter: brightness(1.15);
 }
 
 .sacshan5-text2 h2 {
