@@ -27,7 +27,6 @@
     <div class="home1">
       <nav>
         <div><img src="img/logoo.png" alt="" /></div>
-        <button class="openbtn"><i class="fa fa-bars"></i></button>
         <ul>
           <li><a href="#Home">Home</a></li>
           <li><a href="#About">About</a></li>
@@ -45,12 +44,8 @@
             Welcome to our coffee paradise, where every bean tells a story and
             every cup sparks joy.
           </p>
-          <a href="#Menu">
-            <button class="button1">Order Now</button>
-          </a>
-          <a href="#contact-section">
-            <button class="button2">Contact Us</button>
-          </a>
+          <button class="button1">Order Now</button>
+          <button class="button2">Contact Us</button>
         </div>
         <img src="img/coffee-hero-section.png" alt="" />
       </div>
@@ -59,10 +54,8 @@
     <div id="About" class="sacshan2 hidden">
       <img src="img/about-image.jpg" alt="" />
       <div class="About">
-        <div class="about-title">
-          <h2>ABOUT US</h2>
-        </div>
-
+        <h2>ABOUT US</h2>
+        <hr />
         <p>
           At Coffee House in Berndorf, Germany, we pride ourselves on being a
           go-to destination for coffee lovers and conversation seekers alike.
@@ -78,9 +71,7 @@
     <!-- صفحه رقم3 -->
     <div id="Menu" class="Menu-Sections3">
       <div class="title-Munu">
-        <div class="our-menu">
-          <h2>OUR MENU</h2>
-        </div>
+        <h2>OUR MENU</h2>
         <hr />
       </div>
       <div class="menu-ite hidden">
@@ -116,9 +107,7 @@
     </div>
     <!-- صفحه رقم4 -->
     <div id="Testimonials" class="content">
-      <div class="title-Testimonials">
-        <h2>Testimonials</h2>
-      </div>
+      <h2>Testimonials</h2>
       <div class="bordar"></div>
 
       <div class="box">
@@ -133,8 +122,8 @@
             <i class="fa-solid fa-star"></i>
           </div>
           <p>
-            Incredible attention to detail and great communication throughout
-            the process. The final result exceeded all my expectations.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquam ex reprehenderit magni debitis. Quaerat.
           </p>
         </div>
 
@@ -149,8 +138,8 @@
             <i class="fa-regular fa-star"></i>
           </div>
           <p>
-            I love the minimalist design and the clean aesthetic. They
-            understood my brand's identity perfectly from the very first day.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquam ex reprehenderit magni debitis. Quaerat.
           </p>
         </div>
 
@@ -165,8 +154,8 @@
             <i class="fa-regular fa-star"></i>
           </div>
           <p>
-            Polite, professional, and very talented. It is a pleasure to work
-            with a team that truly cares about the client's success.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquam ex reprehenderit magni debitis. Quaerat.
           </p>
         </div>
         <div class="Opinions hidden">
@@ -180,8 +169,8 @@
             <i class="fa-solid fa-star"></i>
           </div>
           <p>
-            Great value for money. I received high-quality work within a short
-            timeframe. The process was very organized and clear.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquam ex reprehenderit magni debitis. Quaerat.
           </p>
         </div>
       </div>
@@ -189,9 +178,7 @@
     <!-- صفحه رقم5 -->
     <div class="sacshan5">
       <div id="Gallery" class="sacshan5-text2">
-        <div class="title-Gallery">
-          <h2>GALLERY</h2>
-        </div>
+        <h2>GALLERY</h2>
         <hr />
       </div>
       <div class="img-box">
@@ -206,6 +193,7 @@
     <!-- صفحه رقم6 -->
     <div id="Contact" class="sacshan6-text3">
       <h2>CONTACT US</h2>
+      <hr />
     </div>
     <div class="sacshan6">
       <div class="sacshan6-foan hidden">
@@ -230,30 +218,17 @@
         </ul>
       </div>
       <div class="sacshan6-form hidden">
-        <form
-          id="contact-section"
-          action="https://formsubmit.co/karempc1020@gmail.com"
-          method="POST"
-        >
-          <input
-            name="Your name"
-            type="text"
-            placeholder=" Your name"
-            required
-          />
-          <input name="email" type="email" placeholder="Your email" required />
-          <textarea
-            name="Your message"
-            placeholder="Your message"
-            required
-          ></textarea>
+        <form>
+          <input name="Your name" type="text" placeholder=" Your name" />
+          <input name="email" type="email" placeholder="Your email" />
+          <textarea name="Your message" placeholder="Your message"></textarea>
           <button>Submi</button>
         </form>
       </div>
     </div>
     <div class="fotar hidden">
       <div class="shop1">
-        <h3>© 2026 Coffee Shop</h3>
+        <h3>© 2024 Coffee Shop</h3>
       </div>
       <div class="shop2">
         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
